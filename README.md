@@ -36,3 +36,5 @@ some more instructions
 
 ######################################
 ```
+
+The script can be tested on this repository as some test structures / data are included.
