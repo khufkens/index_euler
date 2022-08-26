@@ -1,6 +1,10 @@
-# Index Euler data
+# Index data
 
-To be run as:
+Indexes all data in a particular directory assuming meta-data and descriptions are listed in a human readable readme file (with any possible capitalization). In addition, the size of the topmost directory as well as first level directories is reported.
+
+## Use
+
+To be run in the top most directory to be indexed as:
 
 ```bash
 bash index_euler_sh
@@ -12,11 +16,11 @@ or after running `chmod +x index_euler.sh` plainly as:
 ./index_euler_sh
 ```
 
-In the top most directory to be indexed.
+## Returns
 
-Returns data in a file called data_summary.txt in this directory.
+Returns data in a file called `data_summary.txt` in this directory.
 
-The summary data is formatted as such:
+The summary data is formatted as such, using visual breaks:
 
 ```
 ######################################
@@ -37,4 +41,4 @@ some more instructions
 ######################################
 ```
 
-The script can be tested on this repository as some test structures / data are included.
+The script can be tested on this repository as some test structures / data are included, as well as the matching `data_summary.txt` file
