@@ -14,6 +14,7 @@ echo "" > data_summary.txt
 # and summarize content
 for directory in $directories
 do 
+
   # create header for each directory
   echo "######################################" >> data_summary.txt
   echo "Content of $directory" >> data_summary.txt
@@ -30,7 +31,10 @@ do
   # case incensitive search (-iname) for
   # files (-f) for anything containing
   # readme
-  readmes=`find $directory -type f -iname "readme.md" -iname "readme.txt"`
+  readmes=`find $directory -type f -iname "readme.*" | grep -E "*\\.md|*\\.txt"`
+  
+  echo $readmes
+  
   for readme in $readmes
   do
    echo "--------------------------------------" >> data_summary.txt

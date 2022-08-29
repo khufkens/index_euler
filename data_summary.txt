@@ -1,27 +1,51 @@
 
 ######################################
-Content of .//data_1/
+Content of /home/khufkens/GECO/index_euler//data_1/
 ######################################
 
-4.0K	.//data_1/more_files
-12K	.//data_1/
+4.0K	/home/khufkens/GECO/index_euler//data_1/more_files
+12K	/home/khufkens/GECO/index_euler//data_1/
+
+--------------------------------------
+File: /home/khufkens/GECO/index_euler//data_1/README.md
+--------------------------------------
+
+data 1 instructions
+
+some more instructions
 
 ######################################
 
 ######################################
-Content of .//data_2/
+Content of /home/khufkens/GECO/index_euler//data_2/
 ######################################
 
-12K	.//data_2/
+12K	/home/khufkens/GECO/index_euler//data_2/
+
+--------------------------------------
+File: /home/khufkens/GECO/index_euler//data_2/readme.txt
+--------------------------------------
+
+data 2 other instructions
+
+some more instructions
+
+--------------------------------------
+File: /home/khufkens/GECO/index_euler//data_2/Readme.md
+--------------------------------------
+
+data 2 instructions
+
+some more instructions
 
 ######################################
 
 ######################################
-Content of .//data_3/
+Content of /home/khufkens/GECO/index_euler//data_3/
 ######################################
 
-4.0K	.//data_3/some_files
-12K	.//data_3/
+4.0K	/home/khufkens/GECO/index_euler//data_3/some_files
+12K	/home/khufkens/GECO/index_euler//data_3/
 
 ######################################
 
