@@ -30,7 +30,7 @@ do
   # case incensitive search (-iname) for
   # files (-f) for anything containing
   # readme
-  readmes=`find $directory -type f -iname "readme.*"`
+  readmes=`find $directory -type f -iname "readme.md" -iname "readme.txt"`
   for readme in $readmes
   do
    echo "--------------------------------------" >> data_summary.txt
