@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # list only (data directories)
-directories=`ls -d */`
+directories=`ls -d $1/*/`
 
 # loop over all data directories
 # and summarize data content and
