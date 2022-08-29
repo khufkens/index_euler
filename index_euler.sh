@@ -32,9 +32,7 @@ do
   # files (-f) for anything containing
   # readme
   readmes=`find $directory -type f -iname "readme.*" | grep -E "*\\.md|*\\.txt"`
-  
-  echo $readmes
-  
+
   for readme in $readmes
   do
    echo "--------------------------------------" >> data_summary.txt
